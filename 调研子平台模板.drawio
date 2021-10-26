@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T07:33:18.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="fDLS8sRNpe54-dso-cMA" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T07:35:19.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="IiyqoDV9R-0rPZEnzuI6" version="15.5.9" type="github" pages="2">
   <diagram id="44DIcdSEk2WaaZwaDZBq" name="调研子平台模板">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
             <mxPoint x="240" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rc_2KAGwuOJ1tCgGuly0-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rc_2KAGwuOJ1tCgGuly0-10" value="投标人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rc_2KAGwuOJ1tCgGuly0-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rc_2KAGwuOJ1tCgGuly0-10" target="rc_2KAGwuOJ1tCgGuly0-7">
@@ -28,6 +28,14 @@
             <mxPoint x="240" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sd6ZRwF8Om-TqFUDF5zu" name="调研子平台状态图">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-0" />
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-1" parent="CmFKMjtXIlCbC9kHwhVz-0" />
       </root>
     </mxGraphModel>
   </diagram>
