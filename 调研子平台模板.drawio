@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T07:35:19.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="IiyqoDV9R-0rPZEnzuI6" version="15.5.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-26T07:38:33.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Z2NoqepAd8zmnFeFOR1Z" version="15.5.9" type="github" pages="2">
   <diagram id="44DIcdSEk2WaaZwaDZBq" name="调研子平台模板">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,28 @@
       <root>
         <mxCell id="CmFKMjtXIlCbC9kHwhVz-0" />
         <mxCell id="CmFKMjtXIlCbC9kHwhVz-1" parent="CmFKMjtXIlCbC9kHwhVz-0" />
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CmFKMjtXIlCbC9kHwhVz-1" source="CmFKMjtXIlCbC9kHwhVz-2" target="CmFKMjtXIlCbC9kHwhVz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-9" value="启用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CmFKMjtXIlCbC9kHwhVz-7">
+          <mxGeometry x="-0.1021" y="-2" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-2" value="启用&lt;br&gt;1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CmFKMjtXIlCbC9kHwhVz-1">
+          <mxGeometry x="240" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="CmFKMjtXIlCbC9kHwhVz-1" source="CmFKMjtXIlCbC9kHwhVz-3" target="CmFKMjtXIlCbC9kHwhVz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-10" value="停用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CmFKMjtXIlCbC9kHwhVz-8">
+          <mxGeometry x="0.0708" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CmFKMjtXIlCbC9kHwhVz-3" value="停用&lt;br&gt;0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CmFKMjtXIlCbC9kHwhVz-1">
+          <mxGeometry x="520" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
