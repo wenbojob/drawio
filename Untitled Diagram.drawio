@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T03:47:36.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fJeAJEsyQZseX78DeHWr" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T06:14:44.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="7thAz_260vPDOD4hVRrn" version="15.5.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="782" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="120" y="80" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-40" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;align=left;verticalAlign=top;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-5">
-          <mxGeometry x="20" y="130" width="20" height="90" as="geometry" />
+          <mxGeometry x="20" y="130" width="20" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ypUbbXT2rPkYy6vYF20k-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -22,11 +22,11 @@
             <mxPoint x="43" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-66" value="已建立连接" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-5">
-          <mxGeometry x="20" y="230" width="60" height="150" as="geometry" />
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-66" value="已建立连接&lt;br&gt;ESTAB-LINHED" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-5">
+          <mxGeometry y="230" width="50" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-6" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="100" height="310" as="geometry" />
+          <mxGeometry x="440" y="80" width="100" height="430" as="geometry" />
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-42" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=13;fillColor=none;align=left;verticalAlign=top;size=0.5;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-6">
           <mxGeometry x="60" y="105" width="20" height="60" as="geometry" />
@@ -34,57 +34,53 @@
         <mxCell id="ypUbbXT2rPkYy6vYF20k-62" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=13;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-6">
           <mxGeometry x="60" y="170" width="20" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-68" value="已建立连接&lt;br&gt;ESTAB-LINHED" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-6">
+          <mxGeometry x="50" y="260" width="50" height="150" as="geometry" />
+        </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-26" value="&lt;h1&gt;建立连接&lt;/h1&gt;&lt;p&gt;1.客户端发送SYN包；&lt;/p&gt;&lt;p&gt;2.服务器发送SYN+ACK包；&lt;/p&gt;&lt;p&gt;3.客户端发送ACK包；&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#eeeeee;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="600" y="10" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-31" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="610" width="100" height="300" as="geometry" />
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-31" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="610" width="100" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-32" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="610" width="100" height="300" as="geometry" />
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-69" value="已建立连接&lt;br&gt;ESTAB-LINHED" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-31">
+          <mxGeometry x="-30" y="50" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="ypUbbXT2rPkYy6vYF20k-32">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="49.5" y="149.5" as="sourcePoint" />
-            <mxPoint x="-270" y="149.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-70" y="149.5" />
-              <mxPoint x="-230" y="149.5" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-75" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-31">
+          <mxGeometry x="20" y="220" width="20" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-34" value="SYN=1,ACK=1,Seq=随机数Y,Ack=X+1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-33">
-          <mxGeometry x="0.1925" y="-1" relative="1" as="geometry">
-            <mxPoint x="52" as="offset" />
-          </mxGeometry>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-88" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=13;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-31">
+          <mxGeometry x="20" y="100" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ypUbbXT2rPkYy6vYF20k-31" target="ypUbbXT2rPkYy6vYF20k-32">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="820" as="sourcePoint" />
-            <mxPoint x="430" y="770" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="310" y="700" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-97" value="CLOSED" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-31">
+          <mxGeometry x="-50" y="420" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-36" value="SYN=1,Seq=随机数X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-35">
-          <mxGeometry x="-0.3969" y="3" relative="1" as="geometry">
-            <mxPoint x="55" as="offset" />
-          </mxGeometry>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-32" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="610" width="250" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.487;entryY=0.729;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ypUbbXT2rPkYy6vYF20k-31" target="ypUbbXT2rPkYy6vYF20k-32">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="880" as="sourcePoint" />
-            <mxPoint x="340" y="830" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-74" value="已建立连接&lt;br&gt;ESTAB-LINHED" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-32">
+          <mxGeometry x="120" y="50" width="70" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-38" value="ACK=1,Ack=Y+1,Seq=X+1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-37">
-          <mxGeometry x="-0.2387" y="2" relative="1" as="geometry">
-            <mxPoint x="49" as="offset" />
-          </mxGeometry>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-81" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=13;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-32">
+          <mxGeometry x="130" y="270" width="20" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-39" value="&lt;h1&gt;释放连接&lt;/h1&gt;&lt;p&gt;1.客户端发送SYN包；&lt;/p&gt;&lt;p&gt;2.服务器发送SYN+ACK包；&lt;/p&gt;&lt;p&gt;3.客户端发送ACK包；&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="580" y="580" width="190" height="150" as="geometry" />
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-87" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=13;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-32">
+          <mxGeometry x="130" y="170" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-92" value="最后确认&lt;br&gt;LAST-ACK" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;gradientColor=#97d077;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-32">
+          <mxGeometry x="160" y="305" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-91" value="CLOSED-WAIT" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-32">
+          <mxGeometry x="160" y="205" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-72" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;align=left;verticalAlign=top;strokeColor=#6c8ebf;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-32">
+          <mxGeometry x="-200" y="80" width="310" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-95" value="CLOSED" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="ypUbbXT2rPkYy6vYF20k-32">
+          <mxGeometry x="125" y="370" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-39" value="&lt;h1&gt;释放连接&lt;/h1&gt;&lt;p&gt;1.客户端发送FIN包；【停止发送数据，接受数据】&lt;/p&gt;&lt;p&gt;2.&lt;b&gt;服务器发送ACK包；&lt;/b&gt;【发送数据中】&lt;/p&gt;&lt;p&gt;3.&lt;b&gt;服务器发送FIN+ACK；&lt;/b&gt;【停止发送数据】&lt;/p&gt;&lt;p&gt;4.客户端发送ACK包；【停止发送数据，接收数据】&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#eeeeee;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=13;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="680" y="580" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-41" value="同步已发送&lt;br&gt;SYN-SEND" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="235" width="80" height="30" as="geometry" />
@@ -112,7 +108,7 @@
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="310" as="sourcePoint" />
+            <mxPoint x="170" y="310" as="sourcePoint" />
             <mxPoint x="490" y="340" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
@@ -135,10 +131,10 @@
         <mxCell id="ypUbbXT2rPkYy6vYF20k-58" value="被动打开" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="380" y="130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ypUbbXT2rPkYy6vYF20k-59" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ypUbbXT2rPkYy6vYF20k-66">
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-59" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="250" as="sourcePoint" />
-            <mxPoint x="170" y="300" as="targetPoint" />
+            <mxPoint x="170" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-63" value="SYN=1,ACK=1,Seq=随机数Y,Ack=X+1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-59">
@@ -148,6 +144,65 @@
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-64" value="同步收到&lt;br&gt;SYN=RECV" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="530" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-71" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ypUbbXT2rPkYy6vYF20k-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="710" as="sourcePoint" />
+            <mxPoint x="490" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-83" value="&lt;b&gt;FIN=1,Seq=u&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-71">
+          <mxGeometry x="-0.1628" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-73" value="数据传输" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="275" y="650" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-76" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.48;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ypUbbXT2rPkYy6vYF20k-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="780" as="sourcePoint" />
+            <mxPoint x="400" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-84" value="&lt;b&gt;ACK=1,Seq=v,Ack=u+1&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-76">
+          <mxGeometry x="0.1801" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-77" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.48;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="880" as="sourcePoint" />
+            <mxPoint x="170" y="931.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-85" value="&lt;b&gt;FIN=1,ACK=1,Seq=w,Ack=u+1&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-77">
+          <mxGeometry x="0.1046" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-82" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="930" as="sourcePoint" />
+            <mxPoint x="490" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-86" value="&lt;b&gt;ACK=1,Ack=w+1,Seq=u+1&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="ypUbbXT2rPkYy6vYF20k-82">
+          <mxGeometry x="-0.3035" y="2" relative="1" as="geometry">
+            <mxPoint x="31" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-89" value="FIN-WAIT-1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-90" value="FIN-WAIT-2" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="860" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-93" value="时间等待&lt;br&gt;TIME-WAIT&lt;br&gt;(2mills)" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="70" y="980" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ypUbbXT2rPkYy6vYF20k-96" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
