@@ -1,35 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T05:32:23.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="emfWj5wfenDcMZ1_fMFh" version="15.8.2" type="github">
-  <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
+<mxfile host="app.diagrams.net" modified="2021-11-29T06:13:20.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="8HzQG_azR4-6PLGEY66T" version="15.8.2" type="github">
+  <diagram name="查询下一节点审批人" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="782" dy="113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_1kvY9yX2X5lTFdotekv-117" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;V4&lt;/font&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#FFFFFF;fillColor=#666666;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="880" height="760" as="geometry" />
+        </mxCell>
         <mxCell id="_1kvY9yX2X5lTFdotekv-89" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;SysAuditProcessService&lt;/font&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="350" y="440" width="200" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="_1kvY9yX2X5lTFdotekv-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=13;fontColor=#000000;fillColor=#666666;" vertex="1" parent="_1kvY9yX2X5lTFdotekv-89">
+        <mxCell id="_1kvY9yX2X5lTFdotekv-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=13;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="_1kvY9yX2X5lTFdotekv-89">
           <mxGeometry x="95" y="80" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="_1kvY9yX2X5lTFdotekv-123" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#FFFFFF;entryX=0.167;entryY=0.158;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="_1kvY9yX2X5lTFdotekv-89" target="_1kvY9yX2X5lTFdotekv-124">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="105" y="110" as="sourcePoint" />
+            <mxPoint x="185" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_1kvY9yX2X5lTFdotekv-91" value="&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAf5JREFUOE+lkz9MFFEQxr95u5czamNjp7GSBEmUqAWJGgHPBiOFQMKfW1CvMKHbXGdhYyUGQqMGVjgxaPTci5oQvdxFL4I0omHXYKGFDYbQ2Xhssuwbcnuct3uAFL7q5c3ML998M4/wn4e2qy/29XeTRAsIrQA8kHgnJGejT1KZ2vwQoNh9rYmEvAmgbQdhn1gIfe/jiblKPARwegcWGDi5S1drUqJn39PUy1JeFbD48MafOx9cQWTsZgsBi2sRNB9IpX6XAV8nLkFKA67XUByef0NEp4hJJ0I2Oj357V/AMsA2JsEYAHDXGZoteJJOz1/tLQC4VQrHYrFm99GVISIk/8KY76n9mcEywDJ+Ajji3yXOoDHxMZ/PLzCz7wcRpVt/3b/tEayAeUuKZjZsBQCvcTzRnsvl3gM4v1lQuLA6NuhJuVQBMPA9opl1FcAUgHhVHq5nVw8dVhSlA4DDzMmWlQeNDAwHACMRzdQrgASA8ZBZhC6o0TnUx1f4eef+dUd+JuBoNYe6VO1FujpGy8gD/ubVHG5y7bedxNADgVlVM8+F98AauwyIZwD2BBJfOXY2qbL8UaOuQ42bZhjgT2P8LEClVur8AlUcW/8yMwLGxU3AMkB6SXpgGjWKramDgNsD8AnXmjEERJoJNkvYqsKj1JdZDlZs+xu3+rDzywbWx7cRFkfdagAAAABJRU5ErkJggg==&quot; width=&quot;16&quot; height=&quot;16&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px&quot;&gt;WEB&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="190" y="440" width="100" height="390" as="geometry" />
+          <mxGeometry x="190" y="400" width="100" height="430" as="geometry" />
         </mxCell>
         <mxCell id="_1kvY9yX2X5lTFdotekv-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=13;" vertex="1" parent="_1kvY9yX2X5lTFdotekv-91">
-          <mxGeometry x="45" y="60" width="10" height="150" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="_1kvY9yX2X5lTFdotekv-101" value="用户操作" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=13;fontColor=#000000;" edge="1" parent="_1kvY9yX2X5lTFdotekv-91">
+        <mxCell id="_1kvY9yX2X5lTFdotekv-92" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;ApprovalApiUtl&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;fontColor=#FFFFFF;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_1kvY9yX2X5lTFdotekv-124" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontSize=16;fontColor=#FFFFFF;fillColor=#666666;" vertex="1" parent="_1kvY9yX2X5lTFdotekv-92">
+          <mxGeometry x="75" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_1kvY9yX2X5lTFdotekv-114" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;V6WorkFlowInstance&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;fontColor=#FFFFFF;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="800" y="440" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_1kvY9yX2X5lTFdotekv-116" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;QueryResultInfoUtil&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;fontColor=#FFFFFF;fillColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="440" width="160" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_1kvY9yX2X5lTFdotekv-118" value="&lt;span&gt;&lt;font style=&quot;font-size: 16px&quot; color=&quot;#ffffff&quot;&gt;V6&lt;/font&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;fillColor=#666666;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="400" width="730" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="_1kvY9yX2X5lTFdotekv-101" value="用户操作" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=13;fontColor=#000000;" edge="1" parent="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="-85" y="60" as="sourcePoint" />
-            <mxPoint x="45" y="60" as="targetPoint" />
+            <mxPoint x="105" y="510" as="sourcePoint" />
+            <mxPoint x="235" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_1kvY9yX2X5lTFdotekv-106" value="提交审批" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=13;fontColor=#000000;" edge="1" parent="_1kvY9yX2X5lTFdotekv-91" target="_1kvY9yX2X5lTFdotekv-89">
+        <mxCell id="_1kvY9yX2X5lTFdotekv-122" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontSize=16;fontColor=#FFFFFF;exitX=0.9;exitY=0.196;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_1kvY9yX2X5lTFdotekv-99" target="_1kvY9yX2X5lTFdotekv-102">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="55" y="80" as="sourcePoint" />
-            <mxPoint x="135" y="80" as="targetPoint" />
+            <mxPoint x="250" y="530" as="sourcePoint" />
+            <mxPoint x="320" y="530" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="_1kvY9yX2X5lTFdotekv-92" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;V6WorkFlowInstance&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=18;fontColor=#FFFFFF;fillColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="620" y="440" width="160" height="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
