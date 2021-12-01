@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T05:46:32.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="dcJQMD6YlXQ6KUFwR0-8" version="15.8.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-01T06:09:44.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Fhx-bf2NL4ag5u3F191I" version="15.8.8" type="github" pages="3">
   <diagram name="查询下一节点审批人" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="782" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -358,17 +358,29 @@
         <mxCell id="qm0QgajJy4c7zd9Vytwp-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Lucida Console;fontSize=12;fontColor=#CC0000;" vertex="1" parent="qm0QgajJy4c7zd9Vytwp-0">
           <mxGeometry x="60" y="150" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Cehb9CiFIQ57AD_g1W9f-1" value="启动前配置" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=#CC0000;strokeColor=default;" edge="1" parent="qm0QgajJy4c7zd9Vytwp-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="160" />
+            </Array>
+            <mxPoint x="75" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qm0QgajJy4c7zd9Vytwp-1" value="业务逻辑提交" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontFamily=Lucida Console;fontSize=12;fontColor=#CC0000;" vertex="1" parent="5j71fklE9-mg3k6iBYPx-1">
           <mxGeometry x="360" y="560" width="40" height="720" as="geometry" />
         </mxCell>
         <mxCell id="qm0QgajJy4c7zd9Vytwp-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Lucida Console;fontSize=12;fontColor=#CC0000;" vertex="1" parent="qm0QgajJy4c7zd9Vytwp-1">
           <mxGeometry x="15" y="110" width="10" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="qm0QgajJy4c7zd9Vytwp-5" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=#CC0000;strokeColor=default;" edge="1" parent="qm0QgajJy4c7zd9Vytwp-1">
+        <mxCell id="qm0QgajJy4c7zd9Vytwp-5" value="启动审批流" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=12;fontColor=#CC0000;strokeColor=default;" edge="1" parent="qm0QgajJy4c7zd9Vytwp-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="30" y="150" as="sourcePoint" />
-            <mxPoint x="220" y="150" as="targetPoint" />
+            <mxPoint x="210" y="150" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Cehb9CiFIQ57AD_g1W9f-4" value="&lt;font style=&quot;font-size: 11px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;1.&lt;font face=&quot;consolas, monospace&quot; style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px&quot;&gt;替换viewUrl变量;&lt;br style=&quot;font-size: 11px&quot;&gt;2.设置当前提交审批的processKey&lt;br style=&quot;font-size: 11px&quot;&gt;3.设置选则的&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11px&quot;&gt;auditUserId&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=12;fontColor=#CC0000;" vertex="1" parent="5j71fklE9-mg3k6iBYPx-1">
+          <mxGeometry x="630" y="740" width="200" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
