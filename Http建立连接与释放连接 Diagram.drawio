@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T06:50:58.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="tc-6t4CPEW_GpbSVE2-o" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T13:53:05.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Mfca30APqo3aHTx_kgGT" version="15.8.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Http建立连接与释放连接">
-    <mxGraphModel dx="1022" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
           <mxGeometry x="370" y="610" width="250" height="460" as="geometry" />
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-74" value="已建立连接&lt;br&gt;ESTAB-LINHED" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="ypUbbXT2rPkYy6vYF20k-32" vertex="1">
-          <mxGeometry x="120" y="50" width="70" height="110" as="geometry" />
+          <mxGeometry x="125" y="50" width="70" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ypUbbXT2rPkYy6vYF20k-81" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=13;fillColor=none;align=left;verticalAlign=top;" parent="ypUbbXT2rPkYy6vYF20k-32" vertex="1">
           <mxGeometry x="130" y="270" width="20" height="100" as="geometry" />
