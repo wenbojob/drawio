@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T09:33:38.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="tdq2KbOFvi0oCZEOpAgQ" version="15.9.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-12-14T08:34:17.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="AmzF0-mgDJT8AyJ4ohjR" version="15.9.6" type="github" pages="6">
   <diagram name="查询下一节点审批人" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="782" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -884,8 +884,8 @@
             <mxPoint x="1020" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wdv9C9wEP4G1SPCmfMY3-0" value="1.获取流程任务信息；&lt;br&gt;2." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
-          <mxGeometry x="1270" y="595" width="190" height="85" as="geometry" />
+        <mxCell id="wdv9C9wEP4G1SPCmfMY3-0" value="&lt;b&gt;1.获取流程任务信息；&lt;br&gt;2.设置任务涉及的参数&lt;/b&gt;；&lt;br&gt;&amp;nbsp;（1）设置是否可指定审批人；&lt;br&gt;&amp;nbsp;（2）设置是否可转办；&lt;br&gt;&amp;nbsp;（3）设置是否可加签；&lt;br&gt;&amp;nbsp;（4）设置Activity_Key；&lt;br&gt;&amp;nbsp;（5）设置活动名称；&lt;br&gt;&amp;nbsp;&lt;b&gt;3.获取工作流实例；&lt;/b&gt;&lt;br&gt;&amp;nbsp;（1）设置流程定义ID；&lt;br&gt;&amp;nbsp;（2）设置提交的用户ID；&lt;br&gt;&amp;nbsp;（3）设置提交的用户名称；&lt;br&gt;&lt;b&gt;4.工作流实例的定义ID与当前任务的活动Key&lt;/b&gt;&lt;br&gt;&amp;nbsp;（1）获取当前节点的发散的流程线条；&lt;br&gt;&amp;nbsp;（2）获取发散线条表达式为true的后置节点；" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
+          <mxGeometry x="1420" y="320" width="330" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
