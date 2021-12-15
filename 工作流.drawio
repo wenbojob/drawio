@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T07:53:52.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="wD06V7IwTSQpzMSPrBs0" version="15.9.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-12-15T07:58:00.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="4spg5ey1_SmR3KI9ZbTx" version="15.9.6" type="github" pages="6">
   <diagram name="查询下一节点审批人" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="782" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -908,7 +908,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDe0YW4sPcbx71f-CJDP-11" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfApvlController&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
-          <mxGeometry x="960" y="320" width="140" height="850" as="geometry" />
+          <mxGeometry x="960" y="320" width="140" height="1240" as="geometry" />
         </mxCell>
         <mxCell id="nDe0YW4sPcbx71f-CJDP-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#000000;" parent="nDe0YW4sPcbx71f-CJDP-11" vertex="1">
           <mxGeometry x="65" y="240" width="10" height="570" as="geometry" />
@@ -936,6 +936,22 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="450" as="sourcePoint" />
             <mxPoint x="-250" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAbigS6UYjwbByQCv_g1-20" value="&lt;pre style=&quot;color: rgb(234 , 107 , 102) ; font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;审批节点的进度信息&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#067D17;" edge="1" parent="nDe0YW4sPcbx71f-CJDP-11">
+          <mxGeometry x="-0.0296" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="960" as="sourcePoint" />
+            <mxPoint x="630" y="960" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAbigS6UYjwbByQCv_g1-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;fontSize=12;fontColor=#067D17;" vertex="1" parent="nDe0YW4sPcbx71f-CJDP-11">
+          <mxGeometry x="65" y="960" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wAbigS6UYjwbByQCv_g1-16" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;返回审批节点进度信息&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#EA6B66;" edge="1" parent="nDe0YW4sPcbx71f-CJDP-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1000" as="sourcePoint" />
+            <mxPoint x="-258" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDe0YW4sPcbx71f-CJDP-12" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfApvlServiceImpl&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
@@ -1040,23 +1056,23 @@
         <mxCell id="wAbigS6UYjwbByQCv_g1-5" value="&lt;font face=&quot;consolas, monospace&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;1.查询当前流程定义活动类型为&lt;br&gt;&lt;span style=&quot;color: rgb(135 , 16 , 148) ; font-style: italic ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;task、&lt;/span&gt;&lt;span style=&quot;color: rgb(135 , 16 , 148) ; font-style: italic ; background-color: rgb(255 , 255 , 255)&quot;&gt;counterSignTask、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;i style=&quot;color: rgb(135 , 16 , 148)&quot;&gt;multiTask&lt;br&gt;&amp;nbsp;，&lt;/i&gt;非委托的定义活动；&lt;br&gt;2.循环查询的活动，设置返回活动对象的属性；&lt;br&gt;&amp;nbsp; （2.1）获取活动的属性；&lt;br&gt;&amp;nbsp; （2.2）&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;查询用户组下的用户；&lt;br&gt;&amp;nbsp; （2.3）设置返回活动对象的活动类型；&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font face=&quot;consolas, monospace&quot;&gt;&amp;nbsp; （2.4）设置返回活动对象的用户；&lt;br&gt;&amp;nbsp; （2.5）设置活动名称等；&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
           <mxGeometry x="2090" y="1040" width="260" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wAbigS6UYjwbByQCv_g1-15" value="&lt;pre style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 12px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;审批节点的进度信息：&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;&lt;b style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;i&gt;&lt;font color=&quot;#067d17&quot;&gt;/base/wf/apvl/apvlNodeProcess&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#EA6B66;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
+        <mxCell id="wAbigS6UYjwbByQCv_g1-15" value="&lt;pre style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;/pre&gt;&lt;b style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;i&gt;&lt;font color=&quot;#067d17&quot; style=&quot;font-size: 12px&quot;&gt;/base/wf/apvl/apvlNodeProcess&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#EA6B66;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
           <mxGeometry x="-0.0112" width="80" relative="1" as="geometry">
             <mxPoint x="700" y="1280" as="sourcePoint" />
-            <mxPoint x="1590" y="1280" as="targetPoint" />
+            <mxPoint x="1010" y="1280" as="targetPoint" />
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wAbigS6UYjwbByQCv_g1-16" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;返回审批节点进度信息&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#EA6B66;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1590" y="1310" as="sourcePoint" />
-            <mxPoint x="702" y="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wAbigS6UYjwbByQCv_g1-19" value="返回审阅信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="1430" as="sourcePoint" />
             <mxPoint x="210" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wAbigS6UYjwbByQCv_g1-22" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;返回审批节点进度信息&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#EA6B66;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="1310" as="sourcePoint" />
+            <mxPoint x="1040" y="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
