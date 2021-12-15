@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T10:20:23.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="xmbkk30HkomkyiJmaccb" version="15.9.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-12-15T01:10:22.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="fJ-EtNXHCAja7s6WO3f8" version="15.9.6" type="github" pages="6">
   <diagram name="查询下一节点审批人" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="782" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -848,20 +848,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDe0YW4sPcbx71f-CJDP-11" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfApvlController&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
-          <mxGeometry x="960" y="320" width="140" height="760" as="geometry" />
+          <mxGeometry x="960" y="320" width="140" height="860" as="geometry" />
         </mxCell>
         <mxCell id="nDe0YW4sPcbx71f-CJDP-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#000000;" parent="nDe0YW4sPcbx71f-CJDP-11" vertex="1">
-          <mxGeometry x="65" y="240" width="10" height="410" as="geometry" />
+          <mxGeometry x="65" y="240" width="10" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-15" value="&lt;pre style=&quot;color: rgb(6 , 125 , 23) ; font-size: 9px ; font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;查询流程定义中所有可指定审批人的节点&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" edge="1" parent="nDe0YW4sPcbx71f-CJDP-11" target="TXfAxkmkretTjRZuMwso-14">
-          <mxGeometry x="0.7765" y="10" width="80" relative="1" as="geometry">
+        <mxCell id="TXfAxkmkretTjRZuMwso-15" value="&lt;pre style=&quot;color: rgb(6 , 125 , 23) ; font-size: 9px ; font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;查询工作流实例的变量信息&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontSize=11;fontColor=#000000;" parent="nDe0YW4sPcbx71f-CJDP-11" edge="1">
+          <mxGeometry y="-10" width="80" relative="1" as="geometry">
             <mxPoint x="80" y="630" as="sourcePoint" />
-            <mxPoint x="750" y="630" as="targetPoint" />
+            <mxPoint x="870" y="630" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IB-YyEXRsjFDp3vtIXHJ-3" value="返回工作流实例" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.4;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="nDe0YW4sPcbx71f-CJDP-11" source="TXfAxkmkretTjRZuMwso-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="590" as="sourcePoint" />
+            <mxPoint x="80" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nDe0YW4sPcbx71f-CJDP-12" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfApvlServiceImpl&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
-          <mxGeometry x="1180" y="320" width="150" height="690" as="geometry" />
+          <mxGeometry x="1180" y="320" width="150" height="910" as="geometry" />
         </mxCell>
         <mxCell id="pBU2UjmRon045YsKsBHE-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;fontColor=#067D17;" parent="nDe0YW4sPcbx71f-CJDP-12" vertex="1">
           <mxGeometry x="70" y="250" width="10" height="220" as="geometry" />
@@ -894,43 +900,55 @@
         <mxCell id="wdv9C9wEP4G1SPCmfMY3-0" value="&lt;b&gt;1.获取流程任务信息；&lt;br&gt;2.设置任务涉及的参数&lt;/b&gt;；&lt;br&gt;&amp;nbsp;（1）设置是否可指定审批人；&lt;br&gt;&amp;nbsp;（2）设置是否可转办；&lt;br&gt;&amp;nbsp;（3）设置是否可加签；&lt;br&gt;&amp;nbsp;（4）设置Activity_Key；&lt;br&gt;&amp;nbsp;（5）设置活动名称；&lt;br&gt;&amp;nbsp;&lt;b&gt;3.获取工作流实例；&lt;/b&gt;&lt;br&gt;&amp;nbsp;（1）设置流程定义ID；&lt;br&gt;&amp;nbsp;（2）设置提交的用户ID；&lt;br&gt;&amp;nbsp;（3）设置提交的用户名称；&lt;br&gt;&lt;b&gt;4.工作流实例的定义ID与当前任务的活动Key&lt;/b&gt;&lt;br&gt;&amp;nbsp;（1）获取当前节点的发散的流程线条；&lt;br&gt;&amp;nbsp;（2）获取发散线条表达式为true的后置节点；" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
           <mxGeometry x="1290" y="590" width="250" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-1" value="返回审批操作参数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
+        <mxCell id="TXfAxkmkretTjRZuMwso-1" value="返回审批操作参数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1240" y="790" as="sourcePoint" />
             <mxPoint x="1040" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-2" value="返回审批操作参数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
+        <mxCell id="TXfAxkmkretTjRZuMwso-2" value="返回审批操作参数" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1020" y="800" as="sourcePoint" />
             <mxPoint x="700" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-3" value="&lt;i&gt;&lt;font color=&quot;#067d17&quot;&gt;&lt;b&gt;同步调用：/base/wf/apvl/editableActivities&lt;/b&gt;&lt;/font&gt;&lt;/i&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.267;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1" source="nDe0YW4sPcbx71f-CJDP-7">
+        <mxCell id="TXfAxkmkretTjRZuMwso-3" value="&lt;i&gt;&lt;font color=&quot;#067d17&quot;&gt;&lt;b&gt;同步调用：/base/wf/apvl/editableActivities&lt;/b&gt;&lt;/font&gt;&lt;/i&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.267;exitY=0.972;exitDx=0;exitDy=0;exitPerimeter=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" source="nDe0YW4sPcbx71f-CJDP-7" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="710" y="840" as="sourcePoint" />
             <mxPoint x="1020" y="839" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-4" value="&lt;pre style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=#067D17;fontSize=9;labelBackgroundColor=none;" edge="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="TXfAxkmkretTjRZuMwso-4" value="&lt;pre style=&quot;font-family: &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=#067D17;fontSize=9;labelBackgroundColor=none;" parent="eKdrKX8rTW1tXF8oAx5t-1" edge="1">
+          <mxGeometry x="0.0545" y="20" width="80" relative="1" as="geometry">
             <mxPoint x="1040" y="850" as="sourcePoint" />
             <mxPoint x="1590" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-6" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfInstanceServiceImpl&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
-          <mxGeometry x="1504" y="320" width="186" height="690" as="geometry" />
+        <mxCell id="IB-YyEXRsjFDp3vtIXHJ-2" value="获取工作流实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TXfAxkmkretTjRZuMwso-4">
+          <mxGeometry x="0.0424" y="2" relative="1" as="geometry">
+            <mxPoint x="-17" y="-8" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#067D17;" vertex="1" parent="TXfAxkmkretTjRZuMwso-6">
-          <mxGeometry x="88" y="530" width="10" height="80" as="geometry" />
+        <mxCell id="TXfAxkmkretTjRZuMwso-6" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfInstanceServiceImpl&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
+          <mxGeometry x="1504" y="320" width="186" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-11" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfInstanceServiceImpl&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
-          <mxGeometry x="1770" y="320" width="186" height="690" as="geometry" />
+        <mxCell id="TXfAxkmkretTjRZuMwso-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#067D17;" parent="TXfAxkmkretTjRZuMwso-6" vertex="1">
+          <mxGeometry x="88" y="530" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#067D17;" vertex="1" parent="TXfAxkmkretTjRZuMwso-11">
-          <mxGeometry x="88" y="540" width="10" height="80" as="geometry" />
+        <mxCell id="TXfAxkmkretTjRZuMwso-11" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WfInsVariablesServiceImpl&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
+          <mxGeometry x="1740" y="320" width="210" height="940" as="geometry" />
         </mxCell>
-        <mxCell id="TXfAxkmkretTjRZuMwso-14" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=11;fontColor=#000000;" vertex="1" parent="eKdrKX8rTW1tXF8oAx5t-1">
+        <mxCell id="TXfAxkmkretTjRZuMwso-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#067D17;" parent="TXfAxkmkretTjRZuMwso-11" vertex="1">
+          <mxGeometry x="100" y="630" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IB-YyEXRsjFDp3vtIXHJ-4" value="返回工作流实例变量信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="TXfAxkmkretTjRZuMwso-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="700" as="sourcePoint" />
+            <mxPoint x="-700" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXfAxkmkretTjRZuMwso-14" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=11;fontColor=#000000;" parent="eKdrKX8rTW1tXF8oAx5t-1" vertex="1">
           <mxGeometry x="2060" y="320" width="100" height="680" as="geometry" />
         </mxCell>
       </root>
