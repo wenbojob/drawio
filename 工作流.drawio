@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T07:41:03.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="owmZbLbfkSMeRkSHIvJp" version="15.9.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-16T07:44:53.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="jM0fsU_DB5ks7YFmvHiK" version="15.9.6" type="github" pages="7">
   <diagram name="查询下一节点审批人" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="782" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -1448,9 +1448,6 @@
             <mxPoint x="420" y="1590" as="sourcePoint" />
             <mxPoint x="210" y="1590" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="PJgOHY3L862U76AQN1Vw-8" value="1.如果是" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" vertex="1" parent="urvWYSWMsLfGlTbGA38n-1">
-          <mxGeometry x="3410" y="1540" width="260" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
